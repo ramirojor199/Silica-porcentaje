@@ -50,8 +50,7 @@ ironconcentrate = st.slider(
         label='Porcentaje de concentración de hierro',
         min_value=61.00,
         max_value=69.00,
-        step=0.01,
-        format="%.2f"
+        step=0.01
 )
     st.caption("Porcentaje de hierrro que se alimenta al proceso.")
 
