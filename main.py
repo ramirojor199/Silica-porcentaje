@@ -46,13 +46,12 @@ with st.sidebar:
     st.caption("Representa el flujo de amina que afecta la concentracion de silica")
 
     # Slider para el % iron concentrate
-    ironconcentrate = st.slider(
-        label='Porcentaje de Concentración de Hierro',
-        min_value=60,
-        max_value=70,
-        value=65, # Valor inicial
-        step=0.05
-        format="%.2f"
+ironconcentrate = st.slider(
+        label='Porcentaje de concentración de hierro',
+        min_value=60.00,
+        max_value=70.00,
+        step=0.05,
+        format="%.2f"
     )
     st.caption("Porcentaje de hierrro que se alimenta al proceso.")
 
