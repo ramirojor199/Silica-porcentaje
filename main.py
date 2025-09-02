@@ -48,8 +48,8 @@ with st.sidebar:
     # Slider para el % iron concentrate
 ironconcentrate = st.slider(
         label='Porcentaje de concentración de hierro',
-        min_value=60.00,
-        max_value=70.00,
+        min_value=60.000,
+        max_value=70.000,
         step=0.005,
         format="%.3f"
     )
