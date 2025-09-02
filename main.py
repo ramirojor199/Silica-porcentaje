@@ -48,11 +48,11 @@ with st.sidebar:
     # Slider para el % iron concentrate
 ironconcentrate = st.slider(
         label='Porcentaje de concentración de hierro',
-        min_value=60.000,
-        max_value=70.000,
-        step=0.005,
-        format="%.3f"
-    )
+        min_value=61.00,
+        max_value=69.00,
+        step=0.01,
+        format="%.2f"
+    
     st.caption("Porcentaje de hierrro que se alimenta al proceso.")
 
     # Slider para la Flotation Column 01 Air Flow
