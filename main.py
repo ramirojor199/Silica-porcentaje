@@ -26,7 +26,7 @@ def load_model(model_path):
 
 # Cargamos nuestro modelo campeón. Streamlit buscará en la ruta 'model.joblib'.
 # NOTE: The model file name should be 'final_model.joblib' as mentioned in the markdown cell.
-model = load_model('final_model.joblib')
+model = load_model('model.joblib')
 
 # --- Barra Lateral para las Entradas del Usuario ---
 with st.sidebar:
