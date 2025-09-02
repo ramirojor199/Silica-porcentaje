@@ -26,7 +26,7 @@ def load_model(model_path):
 
 # Cargamos nuestro modelo campeón. Streamlit buscará en la ruta 'model.joblib'.
 # NOTE: The model file name should be 'final_model.joblib' as mentioned in the markdown cell.
-model = load_model('final_model.joblib')
+model = load_model('model.joblib')
 
 # --- Barra Lateral para las Entradas del Usuario ---
 with st.sidebar:
@@ -48,10 +48,10 @@ with st.sidebar:
     # Slider para el % iron concentrate
     ironconcentrate = st.slider(
         label='Porcentaje de concentración de hierro',
-        min_value=0,
-        max_value=100,
-        value=50, # Valor inicial
-        step=1
+        min_value=60.00,
+        max_value=70.00,
+        value=61.00, # Valor inicial
+        step=0.05
     )
     st.caption("Porcentaje de hierrro que se alimenta al proceso.")
 
