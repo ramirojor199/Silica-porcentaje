@@ -52,7 +52,7 @@ ironconcentrate = st.slider(
         max_value=69.00,
         step=0.01
 )
-    st.caption("Porcentaje de hierrro que se alimenta al proceso.")
+    st.caption("porcentaje de hierrro que se alimenta al proceso.")
 
     # Slider para la Flotation Column 01 Air Flow
     flotationcolumnairflow = st.slider(
