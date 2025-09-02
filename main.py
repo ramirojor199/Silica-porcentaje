@@ -47,11 +47,12 @@ with st.sidebar:
 
     # Slider para el % iron concentrate
     ironconcentrate = st.slider(
-        label='Porcentaje de concentración de hierro',
+        label='Porcentaje de Concentración de Hierro',
         min_value=60,
         max_value=70,
         value=65, # Valor inicial
-        step=1
+        step=0.05
+        format="%.2f"
     )
     st.caption("Porcentaje de hierrro que se alimenta al proceso.")
 
@@ -63,7 +64,7 @@ with st.sidebar:
         value=250,
         step=1
     )
-    st.caption("Representa el flujo de aire en la columna de flotación")
+    st.caption("Flujo de aire en la columna de flotación 01")
 
 # --- Contenido de la Página Principal ---
 st.title("🧪 Modelo Predictivo del Porcentaje de Silica")
